@@ -1,0 +1,44 @@
+@font-face {
+	font-family: Lato;
+	src: url(../font/Lato-Regular.ttf);
+}
+body {
+	margin: 0;
+	font-family: Lato;
+	font-weight: bold;
+	background-color:#f9f9f9;
+}
+.header {
+	position: relative;
+	top: auto;
+	left: auto;
+	right: auto;
+	min-height: 80px;
+	border-bottom: 1px solid #e8e8e8;
+	background-color:#fff;
+	z-index:1000;
+
+}
+.header .contain {
+	margin: auto .7%;
+	position: relative;
+}
+.header .contain .header_font {
+	position: absolute;
+	left: 50px;
+	margin-top: 20px;
+	font-size: 26px;
+}
+.header_form {
+	position: absolute;
+	right: 100px;
+	margin-top: 25px;
+}
+img {
+	top: 0;
+	position: absolute;
+	left: 250px;
+	margin-top:0px;
+	height: 80px;
+	width: 80px;
+}
